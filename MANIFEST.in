@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include condosolutions *.css
+recursive-include condosolutions *.csv
+recursive-include condosolutions *.html
+recursive-include condosolutions *.ico
+recursive-include condosolutions *.js
+recursive-include condosolutions *.json
+recursive-include condosolutions *.md
+recursive-include condosolutions *.png
+recursive-include condosolutions *.py
+recursive-include condosolutions *.svg
+recursive-include condosolutions *.txt
+recursive-exclude condosolutions *.pyc
